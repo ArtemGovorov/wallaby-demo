@@ -22,6 +22,7 @@ console.log(w);
     ],
 
     preprocessors: {
+      // babel 5
       'src/app/**/*.js': file => require('babel').transform(file.content, {sourceMap: true, optional: ['runtime']})
     },
 
